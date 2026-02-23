@@ -1,0 +1,9 @@
+{
+	"name": "dfdemopract1107",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "a2dfbbc1-dac1-4112-bb47-193b0ed7d0f4",
+		"tenantId": "55c241f4-2e7e-417b-b42d-0d9df6063b91"
+	}
+}
