@@ -324,7 +324,7 @@
 				"typeProperties": {
 					"location": {
 						"type": "AzureBlobFSLocation",
-						"folderPath": "Hospital_Admission",
+						"folderPath": "Hospital_Admission/Daily",
 						"fileSystem": "output"
 					},
 					"columnDelimiter": ",",
@@ -352,7 +352,7 @@
 				"typeProperties": {
 					"location": {
 						"type": "AzureBlobFSLocation",
-						"folderPath": "Hospital_Admission",
+						"folderPath": "Hospital_Admission/Weekly",
 						"fileSystem": "output"
 					},
 					"columnDelimiter": ",",
