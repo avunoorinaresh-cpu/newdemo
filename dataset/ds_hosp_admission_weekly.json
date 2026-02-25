@@ -1,0 +1,23 @@
+{
+	"name": "ds_hosp_admission_weekly",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_adls_covidreporting",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"folderPath": "Hospital_Admission",
+				"fileSystem": "output"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
