@@ -17,6 +17,12 @@
 		"ls_adls_covidreporting_properties_typeProperties_url": {
 			"value": "https://covidrepprojadls.dfs.core.windows.net/"
 		},
+		"ls_sql_covidreporting_properties_typeProperties_server": {
+			"value": "covidsrv1107.database.windows.net"
+		},
+		"ls_sql_covidreporting_properties_typeProperties_database": {
+			"value": "covidsqldb"
+		},
 		"containerUri": {
 			"value": ""
 		},
