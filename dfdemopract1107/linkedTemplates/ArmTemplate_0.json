@@ -512,7 +512,7 @@
 							},
 							"sink": {
 								"type": "AzureSqlSink",
-								"preCopyScript": "truncate table covid_reporting.cases_and_deaths",
+								"preCopyScript": "TRUNCATE TABLE [covid_reporting].[cases_and_deaths];",
 								"writeBehavior": "insert",
 								"sqlWriterUseTableLock": false,
 								"disableMetricsCollection": false
